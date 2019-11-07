@@ -14,7 +14,7 @@ git push -u origin master
  cd FrontEnd &  docker build -t robin9999/FrontEnd:sba1 . 
  cd zuulgateway  & mvn clean package& docker build -t robin9999/zuulgateway:sba1 . 
  cd trainings  & mvn clean package& docker build -t robin9999/trainings:sba1 .
- cd technology  & mvn clean package& docker build -t robin9999/technology:sba1 .
+ cd technology-skill  & mvn clean package& docker build -t robin9999/technology:sba1 .
  
  
  cd.. & cd docker-compose & docker-compose -f docker-compose.yml up -d
