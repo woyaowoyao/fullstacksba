@@ -1,3 +1,5 @@
+#lastupdate
+this is packaged as zip and uploaded into system  2019-11-07 18:00
 # git init
 
 git add *
